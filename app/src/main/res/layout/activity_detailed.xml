@@ -35,7 +35,7 @@
             android:layout_marginEnd="30dp"
             android:layout_gravity="center|left"
             android:scaleType="fitXY"
-            android:src="@drawable/oficinaalemanha" />
+            android:src="@drawable/oficinaalemenha" />
 
     </androidx.cardview.widget.CardView>
 
@@ -75,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:text="@string/alemanhaDesc"
+        android:text="@string/oficina_text_desc"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
