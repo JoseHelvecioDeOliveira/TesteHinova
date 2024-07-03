@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/hinova"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hinova"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:layout_marginTop="90dp"
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/recuperar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Senha"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/recuperar_ajuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precisa de ajuda? (31) 3419-3100"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="60dp" />
+
+
+
+</LinearLayout>

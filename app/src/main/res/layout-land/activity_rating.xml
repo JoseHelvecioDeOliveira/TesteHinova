@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RatingActivity">
+
+    <!-- Campo de texto para o nome -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_nome_associado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Nome Associado:"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textColor="@color/black" />
+
+    <!-- Campo de texto para o email -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_email_associado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="E-mail Associado:"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:textColor="@color/black" />
+
+    <!-- Campo de texto para a senha -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="CPF:"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <!-- Campo de texto para a confirmação de senha -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Data:"
+        android:inputType="date"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_codigo_associado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Código do Associado:"
+        android:inputType="number"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_telefone_associado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Telefone Associado:"
+        android:inputType="number"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_placa_associado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Placa do veículo Associado:"
+        android:inputType="text"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_nome_amigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Nome do Amigo:"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_confirmacao_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_telefone_amigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Telefone do Amigo:"
+        android:inputType="number"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_email_amigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="E-mail do Amigo:"
+        android:inputType="textEmailAddress"
+        android:maxLength="20"
+        android:textColor="@color/black" />
+
+    <!-- Botão de submit -->
+    <Button
+        android:id="@+id/button_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/cinza_200"
+        android:padding="16dp"
+        android:text="Enviar" />
+
+
+</LinearLayout>

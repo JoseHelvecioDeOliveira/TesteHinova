@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_app_detailed"
+    android:orientation="vertical"
+    tools:context=".DetailedActivity">
+
+    <TextView
+        android:id="@+id/detailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:text="Oficina"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImage"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center|left"
+            android:scaleType="fitXY"
+            android:src="@drawable/oficinaalemanha" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Endereco:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Rua Santo Onofre 330, Manacás, Belo Horizonte"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Descrição:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/detailDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/alemanhaDesc"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Breve Descrição:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/detailBreveDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Lanternagem e Pintura"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Latitude / Longitude:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="LAT: -19.9622435"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/detailLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="LONG : -44.175102"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Codigo do Associado:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="601"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Contatos:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/whatsapp" />
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/detailContato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/whatsapp"
+            android:text="31-34193100"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/detailGmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:text="contato@hinovamobile.com.br"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
